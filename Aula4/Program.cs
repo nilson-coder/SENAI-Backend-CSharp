@@ -7,21 +7,14 @@ namespace Aula4
         static void Main(string[] args)
         {
             
-            double[] media = new double[10];
+            double[] num = new double[10];
 
-            for(int i = 0; i <= 9; i++){
-
-                Console.Write("Digite uma media: ");
-                media[i] = double.Parse(Console.ReadLine());
-
+            for(int i = 0; i<= 9; i++){
+                Console.Write("Digite um valor : ");
+                num[i] = double.Parse( Console.ReadLine() );
             }
 
-            Console.WriteLine(media[10]);
-            Console.WriteLine();
-
-            for(int i = 0; i <= media.Length -1; i++){
-
-                Console.WriteLine("Média :" + media[i]);
+            Console.WriteLine(num[9] * 5);
 
             }
 
