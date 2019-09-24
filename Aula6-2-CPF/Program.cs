@@ -27,6 +27,10 @@ namespace Aula6_2
             string digito_v1 = "";
             string digito_v2 = "";
 
+			cpfUsuario = cpfUsuario.Replace(" ", "");
+			cpfUsuario = cpfUsuario.Replace("-", "");
+			cpfUsuario = cpfUsuario.Replace(".", "");
+
             // Substring pegar uma parte do vetor
             cpfCalculo = cpfUsuario.Substring(0 , 9);
 
@@ -72,6 +76,5 @@ namespace Aula6_2
 
             return resultado;
 		}
-
 	}
 }
