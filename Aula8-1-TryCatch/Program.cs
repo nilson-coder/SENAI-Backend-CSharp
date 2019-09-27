@@ -18,6 +18,8 @@ namespace Aula8_1
 
                 // Mostramos a exceção da regra erro gerado na aplicação
                 Console.WriteLine("Ops :( Erro: " + ex);
+
+                
             }
 
         }
