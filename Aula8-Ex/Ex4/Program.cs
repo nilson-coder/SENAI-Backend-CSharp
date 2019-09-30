@@ -7,38 +7,16 @@ namespace Ex4
         static void Main(string[] args)
         {
             
-            Console.Write("O maior número é: " + Maior());
-
-        }
-
-        static double Maior(){
-
-            int maior = 0;
-            string sair = "";
-            int numeros = 0;
+            Console.Write("O valor total é: " + ValorTotal());
             
-            while(sair != "sim"){
-                try{
-                Console.Write("Digite um número: ");
-                numeros = int.Parse(Console.ReadLine());
-
-                for(int i = 0; i <= numeros.ToString().Length; i++){
-                
-                if(i == 0){
-                    maior = numeros;
-                }
-
-                if(numeros > maior){
-                    maior = numeros;
-                }
-                }
-                Console.Write("Deseja sair ? sim/não ");  
-                sair = Console.ReadLine().ToLower(); 
-                }catch{
-                System.Console.WriteLine("erro!");
+        }
+        static double ValorTotal(double[] vetor){
+            
+            double total = 0;
+            foreach(double numero in vetor){
+                total += numero;
             }
-            }
-            return maior;
+            return total;
         }
     }
 }
