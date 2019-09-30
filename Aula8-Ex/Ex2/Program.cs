@@ -8,14 +8,14 @@ namespace Ex2
         {
             
         Console.WriteLine("o dia da semana é ");
-        ImprimeDataHora();
+        DiaDaSemana();
 
         }
         /// <summary>
         /// DATA e HORA
         /// </summary>
-        static void ImprimeDataHora(){
-            Console.WriteLine(DateTime.Now.DayOfWeek());
+        static void DiaDaSemana(){
+            Console.WriteLine(DateTime.Now.DayOfWeek);
         }
     }
 }

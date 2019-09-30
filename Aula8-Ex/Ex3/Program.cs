@@ -12,9 +12,7 @@ namespace Ex3
             System.Console.WriteLine("Digite nome ");
             nome = Console.ReadLine();
             System.Console.WriteLine("Digite sobrenome ");
-            sobrenome = Console.ReadLine( );
-
-            System.Console.WriteLine(info(nome, sobrenome));
+            sobrenome = Console.ReadLine(   );
 
             string idade, peso, altura;
             System.Console.WriteLine("Digite idade, peso, altura");
@@ -22,7 +20,8 @@ namespace Ex3
             peso = (Console.ReadLine());
             altura = (Console.ReadLine());
 
-            System.Console.WriteLine(info(idade, peso, altura));            
+            System.Console.WriteLine(info(nome, sobrenome));
+            System.Console.WriteLine(info(idade, peso, altura));          
             
         }
 
