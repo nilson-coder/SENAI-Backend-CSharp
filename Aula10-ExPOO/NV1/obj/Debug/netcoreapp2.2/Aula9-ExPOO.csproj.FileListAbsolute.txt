@@ -1,0 +1,11 @@
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\bin\Debug\netcoreapp2.2\Aula9-ExPOO.deps.json
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\bin\Debug\netcoreapp2.2\Aula9-ExPOO.runtimeconfig.json
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\bin\Debug\netcoreapp2.2\Aula9-ExPOO.runtimeconfig.dev.json
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\bin\Debug\netcoreapp2.2\Aula9-ExPOO.dll
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\bin\Debug\netcoreapp2.2\Aula9-ExPOO.pdb
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\obj\Debug\netcoreapp2.2\Aula9-ExPOO.csprojAssemblyReference.cache
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\obj\Debug\netcoreapp2.2\Aula9-ExPOO.csproj.CoreCompileInputs.cache
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\obj\Debug\netcoreapp2.2\Aula9-ExPOO.AssemblyInfoInputs.cache
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\obj\Debug\netcoreapp2.2\Aula9-ExPOO.AssemblyInfo.cs
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\obj\Debug\netcoreapp2.2\Aula9-ExPOO.dll
+C:\Users\fic\Desktop\SENAI-Backend-CSharp\Aula9-ExPOO\obj\Debug\netcoreapp2.2\Aula9-ExPOO.pdb

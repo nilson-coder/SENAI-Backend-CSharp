@@ -17,6 +17,7 @@ namespace Ex5
             }
 
             for(int i= 1; i <= 9; i++){
+                Console.WriteLine(num[i]);
                 
             }
         }

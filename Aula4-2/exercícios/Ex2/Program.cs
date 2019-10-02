@@ -26,7 +26,7 @@ namespace Ex2
 
             for(int i = 0; i <= 9; i++){
                 valo3[i] = valo1[i];
-                valo3[i+10] = valo2[i];
+                valo3[i + 10] = valo2[i];
 
             }
 

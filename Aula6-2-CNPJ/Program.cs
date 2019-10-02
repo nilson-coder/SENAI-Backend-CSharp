@@ -12,7 +12,7 @@ namespace Aula6_2_CNPJ
             Console.WriteLine( ValidaCNPJ(cnpj) );
         }
 
-         static bool ValidaCNPJ(string cnpjUsuario){
+        static bool ValidaCNPJ(string cnpjUsuario){
 
             bool resultado = false;
 
@@ -39,7 +39,7 @@ namespace Aula6_2_CNPJ
             resto = calculo % 11;
             calculo = 11 - resto;
 
-            if(calculo > 12){
+            if(calculo < 2){
                 digito_v1 = "0";
             }else{
                 digito_v1 = calculo.ToString();
@@ -62,7 +62,7 @@ namespace Aula6_2_CNPJ
             resto = calculo % 11;
             calculo = 11 - resto;
 
-            if(calculo > 12){
+            if(calculo < 2){
                 digito_v2 = "0";
             }else{
                 digito_v2 = calculo.ToString();

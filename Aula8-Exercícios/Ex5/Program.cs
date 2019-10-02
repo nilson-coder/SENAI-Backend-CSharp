@@ -7,14 +7,16 @@ namespace Ex5
         static void Main(string[] args)
         {
             
-            double[] numero = {};
-            Console.WriteLine( CalculaMedia(numero) );
-
+        Console.Write("O valor total é: " + ValorTotal());
+        
         }
-
-        static double CalculaMedia( double[] valores){
-
-    
+        static double ValorTotal(double[] vetor){
+            
+            double total = 0;
+            foreach(double numero in vetor){
+                total += numero;
+            }
+            return total;
         }
 
     }

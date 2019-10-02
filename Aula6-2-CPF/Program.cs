@@ -13,13 +13,12 @@ namespace Aula6_2
             Console.WriteLine( ValidaCPF(cpf) );
 
         }
-
-        static bool ValidaCPF( string cpfUsuario ){
+            static bool ValidaCPF(string cpfUsuario){
 
             bool resultado = false;
-            int[] v1 = { 10, 9, 8, 7, 6, 5, 4, 3, 2 };
-            
-            
+
+            int[] v1 = { 10, 9, 8, 7, 6, 5, 4, 3, 2};
+
             string cpfCalculo = "";
             int resto = 0;
             int calculo = 0;
@@ -27,15 +26,14 @@ namespace Aula6_2
             string digito_v1 = "";
             string digito_v2 = "";
 
-			cpfUsuario = cpfUsuario.Replace(" ", "");
+            cpfUsuario = cpfUsuario.Replace(" ", "");
 			cpfUsuario = cpfUsuario.Replace("-", "");
 			cpfUsuario = cpfUsuario.Replace(".", "");
 
-            // Substring pegar uma parte do vetor
-            cpfCalculo = cpfUsuario.Substring(0 , 9);
+            cpfCalculo = cpfUsuario.Substring(0,9);
 
             for(int i = 0; i <= 8; i++){
-                calculo += int.Parse(cpfUsuario[i].ToString()) * v1[i];
+                calculo += int.Parse(cpfCalculo[i].ToString()) * v1[i];
             }
 
             resto = calculo % 11;
@@ -51,14 +49,14 @@ namespace Aula6_2
                 resultado = true;
             }
 
-            int[] v2 = { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 };
-            resto   = 0;
+            int[] v2 = { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2};
+            resto = 0;
 
-            cpfCalculo = cpfCalculo + cpfCalculo.ToString();
+            cpfCalculo = cpfCalculo + calculo.ToString();
             calculo = 0;
 
             for(int i = 0; i <= 9; i++){
-                calculo += int.Parse(cpfUsuario[i].ToString()) * v2[i];
+                calculo += int.Parse(cpfCalculo[i].ToString()) * v2[i];
             }
 
             resto = calculo % 11;
@@ -73,7 +71,6 @@ namespace Aula6_2
             if(digito_v2 == cpfUsuario[10].ToString()){
                 resultado = true;
             }
-
             return resultado;
 		}
 	}

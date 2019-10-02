@@ -19,6 +19,10 @@ namespace Ex7
                 Console.Write("Digite um numero: ");
                 num[i] = double.Parse(Console.ReadLine());
 
+                if(i == 0){
+                    maior = num[i];
+                }
+
                 if(num[i] > maior){
                     maior  = num[i];
                     indice = i;

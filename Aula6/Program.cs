@@ -67,7 +67,7 @@ namespace Aula6
         static void ImprimeDataHora(){
             Console.WriteLine(DateTime.Now.ToShortDateString());
             Console.WriteLine(DateTime.Now.Hour.ToString());
-        }
+        }   
 
         /// <summary>
         /// Função que calcula a média de um vetor
